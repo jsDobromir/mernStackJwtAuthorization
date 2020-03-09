@@ -1,0 +1,21 @@
+.actAccount{
+    max-width: 1080px;
+    margin: 0 auto;
+
+    .alert-danger{
+        background-color: rgb(221, 101, 101);
+        border-radius: 1em;
+        border: 1px solid black;
+        text-align: center;
+        color: rgb(32, 29, 29);
+        font-size: 24px;
+        p{
+            padding: .5em;
+
+            
+            a{
+                text-decoration: none;    
+            }
+        }
+    }
+}

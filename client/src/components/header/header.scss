@@ -1,0 +1,90 @@
+nav{
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        background-color: rgb(234, 236, 236);
+
+        .logo{
+            flex: 2;
+        }
+
+        .menu{
+            flex : 1;
+            display: flex;
+            justify-content: start;
+            font-size: 24px;
+
+            li{
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: white;
+                        background-color: rgb(50,150,200);
+                        font-size: 30px
+                    }
+
+                }
+            }
+            
+            
+        }
+
+        .menu li + li {
+            margin-left: 2em;
+        }
+
+
+        img{
+            width: 7em;
+            height: 5em;
+        }
+
+        //Login Menu
+        .loginMenu{
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 24px;
+
+            .loginMenuProfile{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            li{
+                
+                .logout{
+                    cursor: pointer;
+
+                    &:hover{
+                        color: white;
+                        background-color: rgb(50,150,200);
+                        font-size: 30px
+                    }
+                }
+            }
+
+            img{
+                margin-top: .2em;
+                width: 4em;
+                height: 3.6em;
+            }
+        }
+
+    }
+
+    
+}
